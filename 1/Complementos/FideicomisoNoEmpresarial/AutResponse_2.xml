@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: application/soap+xml; charset=utf-8
+Server: Microsoft-IIS/10.0
+Set-Cookie: ASP.NET_SessionId=dtqpfqb0yurkftvcrcamesvc; path=/; HttpOnly
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 07 Nov 2019 19:47:50 GMT
+Content-Length: 1170
+
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><s:Header><a:Action s:mustUnderstand="1">http://tempuri.org/IAutenticacion/AutenticaResponse</a:Action><a:RelatesTo>urn:uuid:dfe57d0b-6fb6-4da6-87c2-c1d82ebcf8d7</a:RelatesTo><o:Security s:mustUnderstand="1" xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><u:Timestamp u:Id="_0"><u:Created>2019-11-07T19:47:51.045Z</u:Created><u:Expires>2019-11-07T19:52:51.045Z</u:Expires></u:Timestamp></o:Security></s:Header><s:Body><AutenticaResponse xmlns="http://tempuri.org/"><AutenticaResult>eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzMxNTYwNzEsImV4cCI6MTU3MzE5MjA3MSwiaWF0IjoxNTczMTU2MDcxLCJpc3MiOiJtaVN1cGVySWRlbnRpdHlQcm92aWRlciIsImFjdG9ydCI6IjMzMzAzMDMwMzEzMDMwMzAzMDMwMzAzMzMwMzAzMDMzMzYzODMyMzUifQ.AviygvinpjHECIQs0tq19sBRI43_nj0yiWgsxrBJqFY&amp;wrap_subject=3330303031303030303030333030303336383235</AutenticaResult></AutenticaResponse></s:Body></s:Envelope>

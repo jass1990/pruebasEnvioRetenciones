@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 275
+Content-Type: application/xml; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Thu, 03 Sep 2020 15:46:00 GMT
+
+<?xml version="1.0"?><SeguimientoCancelacion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sat.gob.mx/esquemas/retencionpago/1"><Folio>55E90E69-7D09-481B-91CC-60A4C0B3194D</Folio></SeguimientoCancelacion>

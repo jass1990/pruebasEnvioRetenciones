@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Wed, 12 Aug 2020 22:25:24 GMT
+Content-Length: 1209
+
+{"AcuseRecepcionRetencion":{"uuid":"AC3732C4-EB64-4A98-AFB6-20CF1A5419EB","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"K7dJCDgsJkmPIb24Anl0v2aMEk35PSwaENJI2Rq2VWwO7Aiq1TX2Qp4Gt1caNCaXmyn/2obQvWufgRQdBXIy3g==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"O41ijDEUxZRNaaRPi6TS4TmJiqgF34o9yTxv2tnCacZe3yVLtkbaxfMtHXmVaeX0zxq2gNUDF0+p6TF+N5HDEw==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante recibido satisfactoriamente","fecha":"2020-08-12T17:25:23.528326","noCertificadoSAT":"20001000000300022323","listaIncidencia":[]}}
