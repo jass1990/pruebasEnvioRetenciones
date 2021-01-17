@@ -9,6 +9,6 @@ X-AspNet-Version: 4.0.30319
 Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
 Access-Control-Expose-Headers: Request-Context
 X-Powered-By: ASP.NET
-Date: Thu, 03 Sep 2020 18:41:32 GMT
+Date: Sun, 17 Jan 2021 23:00:20 GMT
 
-<?xml version="1.0"?><SeguimientoCancelacion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sat.gob.mx/esquemas/retencionpago/1"><Folio>2755B3A7-4572-4A46-BC93-D47730C47DA8</Folio></SeguimientoCancelacion>
+<?xml version="1.0"?><SeguimientoCancelacion xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sat.gob.mx/esquemas/retencionpago/1"><Folio>37037E8F-04E6-4B00-8C6E-2421E46DC916</Folio></SeguimientoCancelacion>
