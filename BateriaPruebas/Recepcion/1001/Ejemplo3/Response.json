@@ -8,7 +8,7 @@ X-AspNet-Version: 4.0.30319
 Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
 Access-Control-Expose-Headers: Request-Context
 X-Powered-By: ASP.NET
-Date: Tue, 25 Aug 2020 16:57:56 GMT
-Content-Length: 533
+Date: Thu, 21 Jan 2021 22:14:55 GMT
+Content-Length: 531
 
-{"AcuseRecepcionRetencion":{"uuid":"","signature":null,"codEstatus":"Comprobante rechazado","fecha":"2020-08-25T11:57:56.3921811","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"Autenticación no válida","NoCertificadoPac":"DAL050601L35","CodigoError":"1001","RfcEmisor":"","RfcReceptor":null,"IdIncidencia":"5e3015b7-ca55-4537-be75-b5b31bb355fd","Uuid":"00000000-0000-0000-0000-000000000000","WorkProcessId":"467ae1ad-8c17-44f7-9932-ec3522905ef4","FechaRegistro":"2020-08-25T11:57:56.3921811"}]}}
+{"AcuseRecepcionRetencion":{"uuid":"","signature":null,"codEstatus":"Comprobante rechazado","fecha":"2021-01-21T16:14:55.285474","noCertificadoSAT":"30001000000400002495","listaIncidencia":[{"MensajeIncidencia":"Autenticación no válida","NoCertificadoPac":"SPR190613I52","CodigoError":"1001","RfcEmisor":"","RfcReceptor":null,"IdIncidencia":"ae4ba9ca-7ed6-4e19-a09d-9f204a95794e","Uuid":"00000000-0000-0000-0000-000000000000","WorkProcessId":"e377c480-ad38-430b-b549-8176055187d2","FechaRegistro":"2021-01-21T16:14:55.285474"}]}}

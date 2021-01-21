@@ -1,14 +1,1 @@
-HTTP/1.1 200 OK
-Cache-Control: no-cache
-Pragma: no-cache
-Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/10.0
-X-AspNet-Version: 4.0.30319
-Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
-Access-Control-Expose-Headers: Request-Context
-X-Powered-By: ASP.NET
-Date: Thu, 21 Jan 2021 23:07:20 GMT
-Content-Length: 1582
-
 {"AcuseRecepcionRetencion":{"uuid":"3DDA4AC9-2322-4EF8-BA53-A1293EFFCABD","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"Um/rUrTw/RudoO9QymsSW9cKicUhrRWe2rPO0QaKVNDeM7tXe8GtHC2d4weODWiPxvSNtuXAHRBTbtp+6kbkIw==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"C4YookW1oOTTFSPBEYqthpLloS9g/wRgGC9E8vpNpQuREP79bkPaoLhdPJcT1/MdNSqy/6AVdMuPchaEETOHQg==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante recibido con incidencias","fecha":"2021-01-21T17:07:20.4480574","noCertificadoSAT":"30001000000400002495","listaIncidencia":[{"MensajeIncidencia":"El PAC envía versión del estandar no existente.","NoCertificadoPac":"SPR190613I52","CodigoError":"1002","RfcEmisor":"EKU9003173C9","RfcReceptor":null,"IdIncidencia":"924dda38-c42f-4229-aef2-2659e737977b","Uuid":"3dda4ac9-2322-4ef8-ba53-a1293effcabd","WorkProcessId":"3850a870-0238-4bd8-8444-251d92fcff0a","FechaRegistro":"2021-01-21T17:07:20.0493385"}]}}
