@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Wed, 26 Aug 2020 21:23:13 GMT
+Content-Length: 1927
+
+{"AcuseRecepcionRetencion":{"uuid":"D6EBE266-48AC-4AC7-A98D-DF5D88DE4872","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"dISWHPSeOYGyG6YIaqDzLmyM3DdEDwX0ow0G/WTnA2uuKM/nyIoDsT1VxSD8d4FuNSZMR02XKtRn0kjtZJNVNA==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"HQ3rRLGVwbiAbheGa+GYt1M3SdVBGmzB3IKvxkrc6DRiVUndz8/wu5wqQCkxlBzR5gJzbppN7CWv6tq+ca7lPg==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante rechazado","fecha":"2020-08-26T16:23:13.0899229","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"El PAC envía versión del estandar no existente.","NoCertificadoPac":"DAL050601L35","CodigoError":"1002","RfcEmisor":"TCM970625MB1","RfcReceptor":null,"IdIncidencia":"b66fa771-e3cb-4347-abe9-6d5acd38c314","Uuid":"d6ebe266-48ac-4ac7-a98d-df5d88de4872","WorkProcessId":"5fee4091-6eaa-4c18-ab2d-5e55a103c374","FechaRegistro":"2020-08-26T16:23:12.9180419"},{"MensajeIncidencia":"Sello de certificación inválido","NoCertificadoPac":"DAL050601L35","CodigoError":"1010","RfcEmisor":"TCM970625MB1","RfcReceptor":null,"IdIncidencia":"c53950c6-c6c5-41ad-b0bd-88c5f8d90c8f","Uuid":"d6ebe266-48ac-4ac7-a98d-df5d88de4872","WorkProcessId":"5fee4091-6eaa-4c18-ab2d-5e55a103c374","FechaRegistro":"2020-08-26T16:23:12.9180419"}]}}

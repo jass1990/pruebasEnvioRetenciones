@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Tue, 25 Aug 2020 17:57:05 GMT
+Content-Length: 1586
+
+{"AcuseRecepcionRetencion":{"uuid":"9BA26387-0561-4D11-847A-C3BCB14F53C3","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"/7JmYNQSIk+LuBK6Ck80zWMcda4vdnrYCN+1u7vajs/kxqZvPMMNFUhfgEynIxRQwBl5AxBog9g3H2/dihVljw==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"6M7+InXKY72O9LZ6E6Tc695IFDRbCPX6/pD8d/Pxw4zUaQ1jMtokD/gKrSnfe7A0/gsYT1P74hcOg4pcBooJsw==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante recibido con incidencias","fecha":"2020-08-25T12:57:05.9657698","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"La estructura del comprobante recibido no es válida.","NoCertificadoPac":"DAL050601L35","CodigoError":"1004","RfcEmisor":"TCM970625MB1","RfcReceptor":null,"IdIncidencia":"23fba6c7-9ed9-41ef-ba4d-abaa2a553508","Uuid":"9ba26387-0561-4d11-847a-c3bcb14f53c3","WorkProcessId":"afb53615-bb90-4a30-b07a-dc4455eb5d01","FechaRegistro":"2020-08-25T12:57:05.5907756"}]}}

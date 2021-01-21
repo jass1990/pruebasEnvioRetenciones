@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Tue, 25 Aug 2020 16:47:52 GMT
+Content-Length: 531
+
+{"AcuseRecepcionRetencion":{"uuid":"","signature":null,"codEstatus":"Comprobante rechazado","fecha":"2020-08-25T11:47:52.805485","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"Autenticación no válida","NoCertificadoPac":"DAL050601L35","CodigoError":"1001","RfcEmisor":"","RfcReceptor":null,"IdIncidencia":"b12d2e41-c9e7-4116-9a02-9900b6e53ea7","Uuid":"00000000-0000-0000-0000-000000000000","WorkProcessId":"a44091b5-a116-45a8-a73e-266d83658666","FechaRegistro":"2020-08-25T11:47:52.805485"}]}}

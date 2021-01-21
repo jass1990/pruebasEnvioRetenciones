@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Fri, 28 Aug 2020 21:16:55 GMT
+Content-Length: 1931
+
+{"AcuseRecepcionRetencion":{"uuid":"09890E30-F738-4AD1-A25A-EFF8BFAD2C5E","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"olEbtwv3WLaUgW9gUdAKVWgVKcGQaXGCYUpwtqXhx5gJO13CcbBMG0sR5+SUoFJ/72jd+6LmmivFQzj+TzoMhg==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"RliCexkOmbp+SxOuU5rJUas/nuY1jrgvbwUCukwAEcySUIReLSfaLWmRjh8SvCt5Xic/mN3INC31afb6AQQ1nA==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante rechazado","fecha":"2020-08-28T16:16:54.4908069","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"El PAC envía versión del estandar no existente.","NoCertificadoPac":"DAL050601L35","CodigoError":"1002","RfcEmisor":"EKU9003173C9","RfcReceptor":null,"IdIncidencia":"7215adc5-41db-46fe-9fa5-1c0153e8dbe5","Uuid":"09890e30-f738-4ad1-a25a-eff8bfad2c5e","WorkProcessId":"669e9282-9b11-4731-851c-457cef02219c","FechaRegistro":"2020-08-28T16:16:53.7564319"},{"MensajeIncidencia":"Uso del certificado de FIEL no valido","NoCertificadoPac":"DAL050601L35","CodigoError":"1017","RfcEmisor":"EKU9003173C9","RfcReceptor":null,"IdIncidencia":"30d02107-5675-4e44-aa52-dd247b9e8d11","Uuid":"09890e30-f738-4ad1-a25a-eff8bfad2c5e","WorkProcessId":"669e9282-9b11-4731-851c-457cef02219c","FechaRegistro":"2020-08-28T16:16:53.7564319"}]}}

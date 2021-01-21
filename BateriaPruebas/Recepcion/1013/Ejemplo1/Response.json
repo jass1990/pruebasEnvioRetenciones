@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Thu, 27 Aug 2020 18:29:37 GMT
+Content-Length: 1915
+
+{"AcuseRecepcionRetencion":{"uuid":"A403D5E8-7372-46D3-8CF2-07019DC61DA4","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"/xLpHBboJpqotbnaleZjSRZuUeRkIGMBM5XGIDJnIolUG9EXB9yU+QrfcdCtCux2OgK0xH/BZS27bxnRSsqvgw==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"yHmV/u4BhKMHMckykY2d3BpMn+tqh9R/VaC2jamZjAsSdr3dr8aiBlRHdI8usVCfP/W28VZ52l5fdDXSUdEjJg==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante rechazado","fecha":"2020-08-27T13:29:35.8076443","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"Comprobante con envío extemporáneo por vigencia de versión","NoCertificadoPac":"DAL050601L35","CodigoError":"1014","RfcEmisor":"","RfcReceptor":null,"IdIncidencia":"c3aa76b7-66d3-425d-83a8-25bb5de8413c","Uuid":"a403d5e8-7372-46d3-8cf2-07019dc61da4","WorkProcessId":"2a256488-1f6b-42a8-9172-bf664f61b135","FechaRegistro":"2020-08-27T13:29:35.3857988"},{"MensajeIncidencia":"Versión del estándar no vigente","NoCertificadoPac":"DAL050601L35","CodigoError":"1013","RfcEmisor":"","RfcReceptor":null,"IdIncidencia":"ad3a984b-3c62-4d0d-bfb7-e848290e7e45","Uuid":"a403d5e8-7372-46d3-8cf2-07019dc61da4","WorkProcessId":"2a256488-1f6b-42a8-9172-bf664f61b135","FechaRegistro":"2020-08-27T13:29:35.3857988"}]}}

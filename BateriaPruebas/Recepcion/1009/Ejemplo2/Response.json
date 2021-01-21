@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Wed, 26 Aug 2020 19:11:56 GMT
+Content-Length: 2262
+
+{"AcuseRecepcionRetencion":{"uuid":"","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"YxuHqVGVR6armF2ROq4PUyj0wJao4sOzecwV6EzTAajzRg0zGKYk4RaYIU/QtmcnOmgvXeIN3gCR+14YMr7EXQ==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"LXwJnLZMu2dCDiAU4hJuxBhv3/mDYkbE/gsSnHeB7DsbWEdKNsAI73P2NcQ0kBsFntgJ246rb1V1H2nyUAZHpg==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante rechazado","fecha":"2020-08-26T14:11:56.8822614","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"La estructura del comprobante recibido no es válida.","NoCertificadoPac":"DAL050601L35","CodigoError":"1004","RfcEmisor":"","RfcReceptor":null,"IdIncidencia":"852f3829-5e81-488b-bb42-098beb936487","Uuid":"00000000-0000-0000-0000-000000000000","WorkProcessId":"aef0337f-da80-4386-b9b0-5e18e444cb80","FechaRegistro":"2020-08-26T14:11:56.8822614"},{"MensajeIncidencia":"El PAC envía versión del estandar no existente.","NoCertificadoPac":"DAL050601L35","CodigoError":"1002","RfcEmisor":"","RfcReceptor":null,"IdIncidencia":"b463e65d-bce6-4686-be12-fc45df4264fd","Uuid":"00000000-0000-0000-0000-000000000000","WorkProcessId":"aef0337f-da80-4386-b9b0-5e18e444cb80","FechaRegistro":"2020-08-26T14:11:56.8822614"},{"MensajeIncidencia":"El documento de retenciones no cuenta con los datos mínimos","NoCertificadoPac":"DAL050601L35","CodigoError":"1009","RfcEmisor":"","RfcReceptor":null,"IdIncidencia":"cf1b9dbc-367c-4a51-a5ea-c5d5ec89b488","Uuid":"00000000-0000-0000-0000-000000000000","WorkProcessId":"aef0337f-da80-4386-b9b0-5e18e444cb80","FechaRegistro":"2020-08-26T14:11:56.8822614"}]}}

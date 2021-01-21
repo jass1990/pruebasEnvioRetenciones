@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Fri, 04 Sep 2020 18:51:19 GMT
+Content-Length: 1935
+
+{"AcuseRecepcionRetencion":{"uuid":"E03B4896-5766-43A7-85DA-1BCD8D7E8517","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"Tx9fXJ3ewnaVJ9HESIAMBFM+CHcE8aqlLYxt08l32PQma/fzHJP0+e9ykqWZFb0Cs6BXXyB0uD+IvzjQIqQ/dg==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"lVhbrtd11dLNJ5UujjBKOArOVgI9hPr8deiNwAdyfjq4mffC8tWkEwq9lJbYkgZ+Snhzc3wU+VAs9w9640gSMw==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante recibido con incidencias","fecha":"2020-09-04T13:51:19.4981513","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"Sello del documento de retenciones inválido.","NoCertificadoPac":"DAL050601L35","CodigoError":"1011","RfcEmisor":"TCM970625MB1","RfcReceptor":null,"IdIncidencia":"f08e1d9a-143d-4b64-97e4-659371b9a6ae","Uuid":"e03b4896-5766-43a7-85da-1bcd8d7e8517","WorkProcessId":"afb18f96-0640-4273-be33-13e240f10dc2","FechaRegistro":"2020-09-04T13:51:18.8261906"},{"MensajeIncidencia":"Uso del complemento no vigente","NoCertificadoPac":"DAL050601L35","CodigoError":"1015","RfcEmisor":"TCM970625MB1","RfcReceptor":null,"IdIncidencia":"c1d8362e-d1e6-41b4-b10e-092b93a9f25e","Uuid":"e03b4896-5766-43a7-85da-1bcd8d7e8517","WorkProcessId":"afb18f96-0640-4273-be33-13e240f10dc2","FechaRegistro":"2020-09-04T13:51:18.8261906"}]}}

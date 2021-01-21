@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
+Access-Control-Expose-Headers: Request-Context
+X-Powered-By: ASP.NET
+Date: Thu, 27 Aug 2020 15:40:15 GMT
+Content-Length: 2255
+
+{"AcuseRecepcionRetencion":{"uuid":"1B427610-C813-4AD4-9AC9-3A7D1CDC04FD","signature":{"signedInfo":{"canonicalizationMethod":{},"signatureMethod":{},"reference":{"transforms":[{"text":null,"algorithm":"http://www.w3.org/TR/1999/REC-xpath-19991116","<XPath>k__BackingField":"not(ancestor-or-self::*[local-name()='Signature'])"}],"digestMethod":{},"digestValue":"4KUTVnj+ctHg58pneuZSnzFNFTnqECkR+5ptKriutuS51kZUEpgY2L1514VscR78PPYThrc2V0p8y00U0Rcz/g==","id":null,"uRI":"","type":null},"id":null},"signatureValue":"hKB7dcGvITsJljxeFdPQ7NEr8HZIkJG9LYmBl0Y0MufrRRhZNYTviobFo4+lgA3h575AjkllNGdwG6LmgMOF+Q==","keyInfo":{"itemsElementName":null,"text":null,"id":null,"<X509Data>k__BackingField":null,"<KeyName>k__BackingField":"BF66E582888CC845","<KeyValue>k__BackingField":{"text":null,"<RSAKeyValue>k__BackingField":{"modulus":"n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=","exponent":"AQAB"}}},"objectType":null,"id":"SelloSAT"},"codEstatus":"Comprobante rechazado","fecha":"2020-08-27T10:40:16.2394757","noCertificadoSAT":"20001000000300022323","listaIncidencia":[{"MensajeIncidencia":"La estructura del comprobante recibido no es válida.","NoCertificadoPac":"DAL050601L35","CodigoError":"1004","RfcEmisor":null,"RfcReceptor":null,"IdIncidencia":"2b451a43-b5cc-4d3d-9e50-9a3b4ce17133","Uuid":"1b427610-c813-4ad4-9ac9-3a7d1cdc04fd","WorkProcessId":"28910e03-34a8-42f5-812c-31a702a89668","FechaRegistro":"2020-08-27T10:40:16.114434"},{"MensajeIncidencia":"El PAC envía versión del estandar no existente.","NoCertificadoPac":"DAL050601L35","CodigoError":"1002","RfcEmisor":null,"RfcReceptor":null,"IdIncidencia":"dd5bdef2-a962-4ded-b282-b5653e78fd37","Uuid":"1b427610-c813-4ad4-9ac9-3a7d1cdc04fd","WorkProcessId":"28910e03-34a8-42f5-812c-31a702a89668","FechaRegistro":"2020-08-27T10:40:16.114434"},{"MensajeIncidencia":"TFD no válido","NoCertificadoPac":"DAL050601L35","CodigoError":"1012","RfcEmisor":null,"RfcReceptor":null,"IdIncidencia":"48738465-754e-499b-b0af-4762b75617da","Uuid":"1b427610-c813-4ad4-9ac9-3a7d1cdc04fd","WorkProcessId":"28910e03-34a8-42f5-812c-31a702a89668","FechaRegistro":"2020-08-27T10:40:16.114434"}]}}
