@@ -1,1 +1,0 @@
-Cambiar "api/Recibe?versionEsquema=1.0"; 

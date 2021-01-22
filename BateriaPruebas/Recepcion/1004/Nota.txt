@@ -1,0 +1,3 @@
+Se elimino el nodo emisor
+Se elimino el nodo receptor
+Se elimino el un nodo impuestoss
