@@ -1,14 +1,1 @@
-HTTP/1.1 200 OK
-Cache-Control: no-cache
-Pragma: no-cache
-Content-Length: 1496
-Content-Type: application/xml; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/10.0
-X-AspNet-Version: 4.0.30319
-Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
-Access-Control-Expose-Headers: Request-Context
-X-Powered-By: ASP.NET
-Date: Thu, 28 Jan 2021 22:56:09 GMT
-
 <?xml version="1.0"?><Acuse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Fecha="2021-01-28T16:56:09.1724668" RfcEmisor="EKU9003173C9" WorkProcessId="c586f465-606e-4e9f-a9ca-968e3427e818" xmlns="http://www.sat.gob.mx/esquemas/retencionpago/1"><Folios><UUID>B3619BC1-6C3E-4995-9B22-7E31AD6ADD6E</UUID><EstatusUUID>1202</EstatusUUID></Folios><Signature Id="SelloSAT" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#hmac-sha512" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath>not(ancestor-or-self::*[local-name()='Signature'])</XPath></Transform></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" /><DigestValue>/q/V8ghAlpkU6bb0Qp8g+kjxt6cbBOk43NXJp167jacKzHn6fblq62h5D3De+6ygJ1Fb9/2trN+7APTcZYpY6Q==</DigestValue></Reference></SignedInfo><SignatureValue>M64OmeRqTR/BCk6ZPlQo3qsyKxWDAyNgBQjzdJZ4qM/GPmxl2uAETwouB7IEkPUPfyR/0p2ONfTQu5eynU55yw==</SignatureValue><KeyInfo><KeyName>BF66E582888CC845</KeyName><KeyValue><RSAKeyValue><Modulus>n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue></KeyInfo></Signature></Acuse>
