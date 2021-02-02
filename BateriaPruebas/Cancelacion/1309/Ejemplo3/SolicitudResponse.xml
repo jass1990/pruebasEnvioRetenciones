@@ -1,7 +1,7 @@
 HTTP/1.1 200 OK
 Cache-Control: no-cache
 Pragma: no-cache
-Content-Length: 1417
+Content-Length: 1416
 Content-Type: application/xml; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/10.0
@@ -9,6 +9,6 @@ X-AspNet-Version: 4.0.30319
 Request-Context: appId=cid-v1:aa755313-44a3-47e7-88e6-a31ca52fe6ee
 Access-Control-Expose-Headers: Request-Context
 X-Powered-By: ASP.NET
-Date: Tue, 18 Dec 2018 18:14:07 GMT
+Date: Tue, 02 Feb 2021 19:44:51 GMT
 
-<?xml version="1.0"?><Acuse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CodEstatus="1309" Fecha="2018-12-18T12:14:07.3151018" RfcEmisor="TCM970625MB1" WorkProcessId="a3851353-f781-46ab-b6fc-ce9665b32e37" xmlns="http://www.sat.gob.mx/esquemas/retencionpago/1"><Signature Id="SelloSAT" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#hmac-sha512" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath>not(ancestor-or-self::*[local-name()='Signature'])</XPath></Transform></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" /><DigestValue>Hjr4EnTV4MFg1Nds9380EYgdtJT4DQZg0cRkr0hVxgu6Qe7DAraj2W3x2WYWzgcKwBIDamdQExxMb+1zMfWqNg==</DigestValue></Reference></SignedInfo><SignatureValue>M3c7hFK8kuskn18clbo7x5W00KC8rSZm6L2UWTbuMtZ6nlOyxb+2gnuCH30iz1xToykMW/Ai3mDsb8g7ImQgkw==</SignatureValue><KeyInfo><KeyName>BF66E582888CC845</KeyName><KeyValue><RSAKeyValue><Modulus>n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue></KeyInfo></Signature></Acuse>
+<?xml version="1.0"?><Acuse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CodEstatus="1309" Fecha="2021-02-02T13:44:51.187931" RfcEmisor="EKU9003173C9" WorkProcessId="dacb2aae-7467-4398-8ab4-47e27bd2cb7e" xmlns="http://www.sat.gob.mx/esquemas/retencionpago/1"><Signature Id="SelloSAT" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#hmac-sha512" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><XPath>not(ancestor-or-self::*[local-name()='Signature'])</XPath></Transform></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" /><DigestValue>hVTfiI4RJSheaaA6Fhzqx335rquRP1fn4PPUhk1CflkiUlxZnhwu2pAjGkgBGsV9mqkKlQhH/Fs5maTCY7ocPQ==</DigestValue></Reference></SignedInfo><SignatureValue>ohJDNmUSxjsDm2eN9Yh7kW5tGSN8PaA3NR/ECByUH9b+QSVFQOgCzEhpCpbz4zLUrum5KcTeJpGu/hr9Xm/UJw==</SignatureValue><KeyInfo><KeyName>BF66E582888CC845</KeyName><KeyValue><RSAKeyValue><Modulus>n5YsGT0w5Z70ONPbqszhExfJU+KY3Bscftc2jxUn4wxpSjEUhnCuTd88OK5QbDW3Mupoc61jr83lRhUCjchFAmCigpC10rEntTfEU+7qtX8ud/jJJDB1a9lTIB6bhBN//X8IQDjhmHrfKvfen3p7RxLrFoxzWgpwKriuGI5wUlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue></KeyInfo></Signature></Acuse>
