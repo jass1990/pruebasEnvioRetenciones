@@ -2,10 +2,10 @@ HTTP/1.1 200 OK
 Cache-Control: private
 Content-Type: application/soap+xml; charset=utf-8
 Server: Microsoft-IIS/10.0
-Set-Cookie: ASP.NET_SessionId=hwjw2bc1llae14sgjlz2iblp; path=/; HttpOnly
+Set-Cookie: ASP.NET_SessionId=04j1zoxbgaq2v52ejfmmable; path=/; HttpOnly; SameSite=Lax
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-Date: Tue, 18 Dec 2018 17:11:19 GMT
+Date: Tue, 02 Feb 2021 20:28:14 GMT
 Content-Length: 1170
 
-<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><s:Header><a:Action s:mustUnderstand="1">http://tempuri.org/IAutenticacion/AutenticaResponse</a:Action><a:RelatesTo>urn:uuid:4b36a456-6d58-467d-9ee0-6270fd40dcbb</a:RelatesTo><o:Security s:mustUnderstand="1" xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><u:Timestamp u:Id="_0"><u:Created>2018-12-18T17:11:20.356Z</u:Created><u:Expires>2018-12-18T17:16:20.356Z</u:Expires></u:Timestamp></o:Security></s:Header><s:Body><AutenticaResponse xmlns="http://tempuri.org/"><AutenticaResult>eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NDUxNTMwODAsImV4cCI6MTU0NTE4OTA4MCwiaWF0IjoxNTQ1MTUzMDgwLCJpc3MiOiJtaVN1cGVySWRlbnRpdHlQcm92aWRlciIsImFjdG9ydCI6IjMzMzAzMDMwMzEzMDMwMzAzMDMwMzAzMzMwMzAzMDMzMzYzODMyMzUifQ.ZocMDHq4A1m48aVv_Ib1GB10OJMrf09bRIt2wBVBopY&amp;wrap_subject=3330303031303030303030333030303336383235</AutenticaResult></AutenticaResponse></s:Body></s:Envelope>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><s:Header><a:Action s:mustUnderstand="1">http://tempuri.org/IAutenticacion/AutenticaResponse</a:Action><a:RelatesTo>urn:uuid:4d46a539-f83b-46a2-8670-3fb20745f9c9</a:RelatesTo><o:Security s:mustUnderstand="1" xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><u:Timestamp u:Id="_0"><u:Created>2021-02-02T20:28:15.451Z</u:Created><u:Expires>2021-02-02T20:33:15.451Z</u:Expires></u:Timestamp></o:Security></s:Header><s:Body><AutenticaResponse xmlns="http://tempuri.org/"><AutenticaResult>eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE2MTIyOTc2OTUsImV4cCI6MTYxMjMzMzY5NSwiaWF0IjoxNjEyMjk3Njk1LCJpc3MiOiJtaVN1cGVySWRlbnRpdHlQcm92aWRlciIsImFjdG9ydCI6IjMzMzAzMDMwMzEzMDMwMzAzMDMwMzAzNDMwMzAzMDMwMzIzNDM5MzUifQ.aDx_eWRt_s2gbaU92738GxZHDxi194g0mzVap-GBQpk&amp;wrap_subject=3330303031303030303030343030303032343935</AutenticaResult></AutenticaResponse></s:Body></s:Envelope>
