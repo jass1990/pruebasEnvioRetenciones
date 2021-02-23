@@ -1,0 +1,33 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Header />
+<s:Body>
+<TimbrarCfdiResponse xmlns="http://tempuri.org/">
+<TimbrarCfdiResult xmlns:a="http://schemas.datacontract.org/2004/07/WebServiceCFDI" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<a:Errors>
+<a:ErrorData>
+<a:ErrorCode>SPT106</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'Ejerc' es menor a 2019 o mayor al valor del año de la fecha de emisión del comprobante.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT107</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'montoTotOperacion' es diferente al valor registrado en el atributo 'MonTotServSIVA'.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT115</a:ErrorCode>
+<a:ErrorDescripcion>El atributo “BaseRet” del tipo de impuesto con valor '01' (ISR), es diferente al “montoTotOperacion”, o es diferente al valor del 'montoTotOperacion menos la suma de los atributos “PrecioServSinIVA”, cuando el atributo “FormaPagoServ” contiene el valor “01” (Efectivo), truncado a 2 decimales.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT118</a:ErrorCode>
+<a:ErrorDescripcion>El atributo 'montoRet' es diferente del producto obtenido de multiplicar el valor registrado en 'BaseRet' por el valor de la tasa de retención de acuerdo al valor de la columna 'Tasa de retención para ISR' del catálogo 'c_TipoDeServ' aplicado al tipo de servicio registrado en el atributo 'TipoDeServ', considerando el valor registrado en el atributo 'Ejerc'. </a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT140</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'FechaServ' no corresponde con los valores registrados en los atributos “Ejerc”; “MesIni” y “MesFin” en los que se reporta la retención.</a:ErrorDescripcion>
+</a:ErrorData>
+</a:Errors>
+<a:IsValid>false</a:IsValid>
+<a:Xml />
+</TimbrarCfdiResponse>
+</s:Body>
+</s:Envelope>
+</TimbrarCfdiResult>

@@ -1,0 +1,65 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Header />
+<s:Body>
+<TimbrarCfdiResponse xmlns="http://tempuri.org/">
+<TimbrarCfdiResult xmlns:a="http://schemas.datacontract.org/2004/07/WebServiceCFDI" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<a:Errors>
+<a:ErrorData>
+<a:ErrorCode>SPT107</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'montoTotOperacion' es diferente al valor registrado en el atributo 'MonTotServSIVA'.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT110</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'montoTotRet' es diferente de la suma de los atributos 'montoRet' del nodo 'ImpRetenidos'.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT112</a:ErrorCode>
+<a:ErrorDescripcion>No existe el nodo 'ImpRetenidos' con la clave '02' en el atributo 'Impuesto', no obstante que la suma de los atributos 'Importe' del nodo 'ImpuestosTrasladadosdelServicio' es mayor a cero.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT115</a:ErrorCode>
+<a:ErrorDescripcion>El atributo “BaseRet” del tipo de impuesto con valor '01' (ISR), es diferente al “montoTotOperacion”, o es diferente al valor del 'montoTotOperacion menos la suma de los atributos “PrecioServSinIVA”, cuando el atributo “FormaPagoServ” contiene el valor “01” (Efectivo), truncado a 2 decimales.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT118</a:ErrorCode>
+<a:ErrorDescripcion>El atributo 'montoRet' es diferente del producto obtenido de multiplicar el valor registrado en 'BaseRet' por el valor de la tasa de retención de acuerdo al valor de la columna 'Tasa de retención para ISR' del catálogo 'c_TipoDeServ' aplicado al tipo de servicio registrado en el atributo 'TipoDeServ', considerando el valor registrado en el atributo 'Ejerc'. </a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT126</a:ErrorCode>
+<a:ErrorDescripcion>El número registrado es diferente de la suma de los elementos hijo del nodo “Servicios”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT127</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'MonTotServSIVA' es diferente de la suma de los atributos “PrecioServSinIVA” registrados en los nodos hijos “DetallesDelServicio”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT128</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'TotalIVATrasladado' es diferente de la suma de los atributos “Importe” del nodo “ImpuestosTrasladadosdelServicio”; o es diferente de 0.00 sin que exista un nodo “ImpuestosTrasladadosdelServicio”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT130</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'TotalISRRetenido' es diferente del atributo 'montoRet' y el valor registrado en el atributo 'Impuesto' del nodo 'ImpRetenidos' es '01' (ISR); o es diferente de 0.00 sin que exista un nodo “ImpRetenidos”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT131</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'DifIVAEntregadoPrestServ' es diferente al valor del atributo “TotalIVATrasladado” menos la suma de los atributos “Importe” del nodo “ImpuestosTrasladadosdelServicio” si el valor registrado en el atributo “FormaPagoServ” es “01” (Efectivo) menos el valor del atributo “TotalIVARetenido”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT133</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'MonTotalporUsoPlataforma' es diferente la suma de los atributos “Importe” de los nodos “ComisiondelServicio”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT140</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'FechaServ' no corresponde con los valores registrados en los atributos “Ejerc”; “MesIni” y “MesFin” en los que se reporta la retención.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT146</a:ErrorCode>
+<a:ErrorDescripcion>El nodo 'ComisionDelServicio' existe no obstante que  el atributo 'FormaPagoServ' contiene la clave'09' (Otros ingresos por Premios, Bonificaciones o análogos).</a:ErrorDescripcion>
+</a:ErrorData>
+</a:Errors>
+<a:IsValid>false</a:IsValid>
+<a:Xml />
+</TimbrarCfdiResponse>
+</s:Body>
+</s:Envelope>
+</TimbrarCfdiResult>

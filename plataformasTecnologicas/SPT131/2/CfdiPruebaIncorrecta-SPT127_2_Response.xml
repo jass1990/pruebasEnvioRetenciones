@@ -1,0 +1,49 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Header />
+<s:Body>
+<TimbrarCfdiResponse xmlns="http://tempuri.org/">
+<TimbrarCfdiResult xmlns:a="http://schemas.datacontract.org/2004/07/WebServiceCFDI" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<a:Errors>
+<a:ErrorData>
+<a:ErrorCode>SPT110</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'montoTotRet' es diferente de la suma de los atributos 'montoRet' del nodo 'ImpRetenidos'.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT126</a:ErrorCode>
+<a:ErrorDescripcion>El número registrado es diferente de la suma de los elementos hijo del nodo “Servicios”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT127</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'MonTotServSIVA' es diferente de la suma de los atributos “PrecioServSinIVA” registrados en los nodos hijos “DetallesDelServicio”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT128</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'TotalIVATrasladado' es diferente de la suma de los atributos “Importe” del nodo “ImpuestosTrasladadosdelServicio”; o es diferente de 0.00 sin que exista un nodo “ImpuestosTrasladadosdelServicio”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT130</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'TotalISRRetenido' es diferente del atributo 'montoRet' y el valor registrado en el atributo 'Impuesto' del nodo 'ImpRetenidos' es '01' (ISR); o es diferente de 0.00 sin que exista un nodo “ImpRetenidos”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT131</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'DifIVAEntregadoPrestServ' es diferente al valor del atributo “TotalIVATrasladado” menos la suma de los atributos “Importe” del nodo “ImpuestosTrasladadosdelServicio” si el valor registrado en el atributo “FormaPagoServ” es “01” (Efectivo) menos el valor del atributo “TotalIVARetenido”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT133</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'MonTotalporUsoPlataforma' es diferente la suma de los atributos “Importe” de los nodos “ComisiondelServicio”.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT140</a:ErrorCode>
+<a:ErrorDescripcion>El valor del atributo 'FechaServ' no corresponde con los valores registrados en los atributos “Ejerc”; “MesIni” y “MesFin” en los que se reporta la retención.</a:ErrorDescripcion>
+</a:ErrorData>
+<a:ErrorData>
+<a:ErrorCode>SPT146</a:ErrorCode>
+<a:ErrorDescripcion>El nodo 'ComisionDelServicio' existe no obstante que  el atributo 'FormaPagoServ' contiene la clave'09' (Otros ingresos por Premios, Bonificaciones o análogos).</a:ErrorDescripcion>
+</a:ErrorData>
+</a:Errors>
+<a:IsValid>false</a:IsValid>
+<a:Xml />
+</TimbrarCfdiResponse>
+</s:Body>
+</s:Envelope>
+</TimbrarCfdiResult>
