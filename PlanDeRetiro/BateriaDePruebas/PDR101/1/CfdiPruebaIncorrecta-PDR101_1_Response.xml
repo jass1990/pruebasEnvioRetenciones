@@ -1,0 +1,17 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Header />
+<s:Body>
+<TimbrarCfdiResponse xmlns="http://tempuri.org/">
+<TimbrarCfdiResult xmlns:a="http://schemas.datacontract.org/2004/07/WebServiceCFDI" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<a:Errors>
+<a:ErrorData>
+<a:ErrorCode>PDR101</a:ErrorCode>
+<a:ErrorDescripcion>El atributo "MontTotExentRetiradoAnioInmAnt" debe de existir</a:ErrorDescripcion>
+</a:ErrorData>
+</a:Errors>
+<a:IsValid>false</a:IsValid>
+<a:Xml />
+</TimbrarCfdiResponse>
+</s:Body>
+</s:Envelope>
+</TimbrarCfdiResult>
